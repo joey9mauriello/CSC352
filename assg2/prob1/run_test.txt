@@ -1,0 +1,5 @@
+#!/bin/bash
+files='ls ${test}'
+for ((X=1; ${X} <= 4; X++)) ; do
+	cat test_%X.txt
+done

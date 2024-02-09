@@ -1,0 +1,24 @@
+@n joey
+@n ben
+@n freddy
+
+@e joey ben
+@e freddy ben
+
+@q joey ben
+@q joey freddy
+@q ben joey
+@q freddy joey
+@q joey ben
+@q freddy ben
+
+@e joey freddy
+@e ben freddy
+@e ben joey
+
+@q joey ben
+@q joey freddy
+@q ben joey
+@q freddy joey
+@q joey ben
+@q freddy ben

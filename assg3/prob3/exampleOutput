@@ -1,0 +1,25 @@
+Test File test1
+stdout diffs:
+1c1
+< 0
+---
+> 1
+stderr diffs:
+1c1
+< Bad Input
+---
+> Input was not 3 integers
+Test File test2
+stdout diffs:
+1c1
+< 0
+---
+> 1
+stderr diffs:
+1c1
+< Bad Input
+---
+> Input was not 4 integers
+Test File test3
+stdout diffs:
+stderr diffs:

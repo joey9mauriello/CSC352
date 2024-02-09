@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# File: codeTester1
+# Author: Joey Mauriello
+# Purpose: To run different test files through 2 executables and compare the output difference.
+
+
+FILES=$(ls)
+for ((X=1; ${X} <= 3; X++)) ; do
+	./count <test$X >myOut 2>myErr
+	echo $? >>myOut
+	
+	./exCount <test$X >exOut 2>exErr
+	echo $? >>exOut
+	
+	echo "Test File ${X}"
+	echo "stdout diffs:"
+	diff myOut exOut
+	echo "stderr diffs:"
+	diff myErr exErr
+	
+done

@@ -1,0 +1,10 @@
+ben joey 18
+freddy ben 10
+joey freddy 4
+osama ben 3
+freddy osama 13
+joey osama 6
+amber joey 18
+ben amber 21
+freddy amber 15
+amber osama 9

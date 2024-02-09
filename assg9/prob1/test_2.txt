@@ -1,0 +1,6 @@
+A : B
+	echo hello
+B : C
+	echo me
+C : A
+	echo cycle
